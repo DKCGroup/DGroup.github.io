@@ -1,19 +1,11 @@
 faculty:
 
-  jiajun_wu:
-    name: Jiajun Wu
-    img: Jiajun_Wu.jpg
+  Dong:
+    name: Kaichen Dong
+    img: dong.jpg
     title: Assistant Professor
-    email: jiajunwu [at] cs (dot) stanford (dot) edu
-    link: https://jiajunwu.com/
+    link: https://www.sigs.tsinghua.edu.cn/dkc/main.htm
 
-  fei_fei_li:
-    name: Fei-Fei Li
-    img: fei_fei_li.jpg
-    title: Professor
-    email: feifeili [at] cs.stanford [dot] edu
-    link: //vision.stanford.edu/feifeili/
-    
   silvio_savarese:
     name: Silvio Savarese
     img: silvio_savarese.jpg

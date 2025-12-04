@@ -1,6 +1,6 @@
 ---
 layout: base
-title: People
+title: People | Dong Lab
 about: "PAIR People"
 permalink: /people
 ---
@@ -15,8 +15,8 @@ permalink: /people
                   <small></small>
               </h1>
               <ol class="breadcrumb">
-                  <li><a href="/">Stanford PAIR</a></li>
-                  <li class="active">People</li>
+                  <li><a href="https://www.sigs.tsinghua.edu.cn/_t200/2023/0608/c1053a63697/page.psp">DSIT</a></li>
+                  <li class="active">Dong Lab</li>
               </ol>
           </div>
       </div>

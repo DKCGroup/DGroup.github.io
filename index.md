@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Home
+title: Home | Dong Lab
 about: "PAIR website"
 ---
 

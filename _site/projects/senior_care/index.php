@@ -45,10 +45,7 @@
 <body>
 <div id="brandbar">
   <div class="container">
-    <a href="http://www.stanford.edu">
-      <img src="https://www.stanford.edu/su-identity/images/brandbar-stanford-logo@2x.png" alt="Stanford University"
-           width="152" height="26">
-    </a>
+    <a href="https://www.tsinghua.edu.cn/">Tsinghua University</a>
   </div>
 </div>
 
@@ -62,11 +59,11 @@
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="../../index.php">Stanford People, AI & Robots Group</a>
-    </div>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <span class="navbar-brand">Dong Lab</span>
+      </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">

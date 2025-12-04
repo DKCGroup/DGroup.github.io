@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Publications
+title: Publications | Dong Lab
 about: "PAIR Publications"
 ---
 <!-- Page Content -->

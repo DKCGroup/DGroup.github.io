@@ -32,6 +32,28 @@ a:hover {
     color: #660099;
 }
 
+#brandbar {
+    background-color: #722f8c !important;
+}
+
+#brandbar .container {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+#brandbar a {
+    color: #ffffff !important;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+}
+
+#brandbar a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 .panel-heading {
     font-color: #000000;
     color: #000000;

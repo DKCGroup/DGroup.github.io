@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Robots
+title: Robots | Dong Lab
 about: "PAIR robots"
 permalink: /robots
 ---

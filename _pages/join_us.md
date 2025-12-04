@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Join Us
+title: Join Us | Dong Lab
 about: "PAIR Join Us"
 permalink: /join
 ---
