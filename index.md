@@ -1,28 +1,28 @@
 ---
 layout: base
 title: Home | Dong Lab
-about: "PAIR website"
+about: "Dong Lab website"
 ---
 
 <div class="container">
   <!-- Page Content -->
   <div class="container">
-    <div class="row mar-top-20">
-      <div class="col-md-6 img-portfolio">
+    <div class="row mar-top-20 about-row">
+      <div class="col-md-6 about-text">
         <h2 class="page-header-dark">About</h2>
         <p>
-            Stanford People, AI & Robots Group (PAIR) is a research group under the <a href="http://svl.stanford.edu">Stanford Vision & Learning Lab</a> that focuses on developing methods and mechanisms for generalizable robot perception and control.
+           We are a research group at Institute of Data and Information, Tsinghua Shenzhen International Graduate School of Tsinghua University, led by Dr. Kaichen Dong. Our research aims to provide ground-breaking new solutions to worldwide critical challenges in the fields of energy and environmental protection, information intelligence, and life health. Our technical approach is highly interdisciplinary, involving mathematics/artificial intelligence, condensed matter physics/microelectronics, chemistry/materials science, photonics/electrical engineering, and mechanical engineering/automation. 
         </p>
         <p>
-            We work on challenging open problems at the intersection of computer vision, machine learning, and robotics. We develop algorithms and systems that unify in reinforcement learning, control theoretic modeling, and 2D/3D visual scene understanding to teach robots to perceive and to interact with the physical world.
+            We dissect microscopic systems from fundamental levels, explore physical phenomena, and construct mathematical models. By deeply integrating artificial intelligence with multi-physics simulation technologies, we design zero-power, high-performance information devices and photothermal materials. We also develop highly intelligent automated equipment, build the future laboratory, and advance the practical implementation of new inventions.
         </p>
         <p><b>
-            We are always looking out for talented members to join our group. Please see our current openings at the <a href="{{ site.url }}/join">Join Us</a> page.
+           We are building an open, supportive, energetic, and international research community, and we are always excited to meet motivated students and researchers. Please see current opportunities on the <a href="{{ site.url }}/join">Join Us</a> page.
         </b></p>
       </div>
-      <div class="col-md-6">
-          <a href="{{ site.url }}/img/jumbotron/group_original.jpg">
-            <img class="img-responsive" src="{{ site.url }}/img/jumbotron/group.jpg" alt="">
+      <div class="col-md-6 about-image text-center">
+          <a href="{{ site.url }}/img/jumbotron/group.jpg">
+            <img class="img-responsive img-portfolio center-block" src="{{ site.url }}/img/jumbotron/group.jpg" alt="">
           </a>
       </div>
     </div>
@@ -48,55 +48,33 @@ about: "PAIR website"
 
   <div class="container">
     <!-- Portfolio Section -->
-    <div class="row">
+    <div class="row project-highlights">
         <div class="col-lg-12">
             <h2 class="page-header">Project Highlights</h2>
         </div>
-        <div class="col-md-4 mar-bot-25">
-            <a href="http://svl.stanford.edu/igibson/">
-              <img class="img-responsive img-hover" src="./img/project_thumbs/750x400/igibson.png" alt="">
-            </a>
+        <div class="col-md-4 mar-bot-25 project-item">
+            <img class="img-responsive img-hover project-thumb" src="./img/project_thumbs/750x400/CCTV%20news%20reports.png" alt="CCTV news reports">
+            <p class="project-caption">CCTV news reports</p>
         </div>
-        <div class="col-md-4 mar-bot-25">
-            <a href="https://arise-initiative.github.io/robomimic-web/">
-              <img class="img-responsive img-hover" src="./img/project_thumbs/750x400/robomimic.png" alt="">
-            </a>
+        <div class="col-md-4 mar-bot-25 project-item">
+            <img class="img-responsive img-hover project-thumb" src="./img/project_thumbs/750x400/Large-area%20metamaterials%20fabrication.png" alt="Large-area metamaterials fabrication">
+            <p class="project-caption">Large-area metamaterials fabrication</p>
         </div>
-        <div class="col-md-4 mar-bot-25">
-            <a href="https://sites.google.com/view/il-for-mm/home">
-              <img class="img-responsive img-hover" src="./img/project_thumbs/750x400/momart.png" alt="">
-            </a>
+        <div class="col-md-4 mar-bot-25 project-item">
+            <img class="img-responsive img-hover project-thumb" src="./img/project_thumbs/750x400/Optical%20vortex%20generation.png" alt="Optical vortex generation">
+            <p class="project-caption">Optical vortex generation</p>
         </div>
-        <div class="col-md-4 mar-bot-25">
-            <a href="https://kuanfang.github.io/apt-gen/">
-              <img class="img-responsive img-hover" src="./img/project_thumbs/750x400/procgen.png" alt="">
-            </a>
+        <div class="col-md-4 mar-bot-25 project-item">
+            <img class="img-responsive img-hover project-thumb" src="./img/project_thumbs/750x400/Temperature-adaptive%20radiative%20coatings.png" alt="Temperature-adaptive radiative coatings">
+            <p class="project-caption">Temperature-adaptive radiative coatings</p>
         </div>
-        <div class="col-md-4 mar-bot-25">
-            <a href="http://svl.stanford.edu/projects/relmogen/">
-              <img class="img-responsive img-hover" src="./img/project_thumbs/750x400/relmogen.png" alt="">
-            </a>
+        <div class="col-md-4 mar-bot-25 project-item">
+            <img class="img-responsive img-hover project-thumb" src="./img/project_thumbs/750x400/Twisted%20bilayer%20photonic%20crystals.png" alt="Twisted bilayer photonic crystals">
+            <p class="project-caption">Twisted bilayer photonic crystals</p>
         </div>
-        <div class="col-md-4 mar-bot-25">
-            <a href="http://roboturk.stanford.edu">
-              <img class="img-responsive img-hover" src="./img/project_thumbs/750x400/roboturk.png" alt="">
-            </a>
-        </div>
-        <div class="col-md-4 mar-bot-25">
-            <a href="https://sites.google.com/view/co-gail-web/home">
-              <img class="img-responsive img-hover" src="./img/project_thumbs/750x400/cogail.png" alt="">
-            </a>
-        </div>
-        
-        <div class="col-md-4 mar-bot-25">
-            <a href="https://sites.google.com/view/visionandtouch">
-              <img class="img-responsive img-hover" src="./img/project_thumbs/750x400/multimodal.png" alt="">
-            </a>
-        </div>
-        <div class="col-md-4 mar-bot-25">
-            <a href="https://stanfordvl.github.io/ntp/">
-              <img class="img-responsive img-hover" src="./img/project_thumbs/750x400/neural_task_programming.png" alt="">
-            </a>
+        <div class="col-md-4 mar-bot-25 project-item">
+            <img class="img-responsive img-hover project-thumb" src="./img/project_thumbs/750x400/Zero-power%20MEMS%20devices.png" alt="Zero-power MEMS devices">
+            <p class="project-caption">Zero-power MEMS devices</p>
         </div>
     </div>
 
