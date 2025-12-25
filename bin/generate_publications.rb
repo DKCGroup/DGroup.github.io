@@ -83,6 +83,23 @@ module PublicationList
     "pubtype-#{type}"
   end
 
+  def submitted_title?(title)
+    title.to_s.match?(/submitted/i)
+  end
+
+  def sort_date_value(value)
+    case value
+    when Date then value
+    when Time then value.to_date
+    else
+      begin
+        Date.parse(value.to_s)
+      rescue StandardError
+        Date.new(0, 1, 1)
+      end
+    end
+  end
+
   def featured_image_url(root, dir, full_dir)
     %w[.jpg .jpeg .png .webp].each do |ext|
       filename = "featured#{ext}"
@@ -200,24 +217,19 @@ module PublicationList
       end
 
       entry[:sort_date] = date_value || data['date']
+      entry[:sort_date_value] = sort_date_value(entry[:sort_date])
+      entry[:submitted] = submitted_title?(title)
       entries << entry
     end
 
-    entries.sort_by! do |entry|
-      value = entry[:sort_date]
-      case value
-      when Date then value
-      when Time then value.to_date
-      else
-        begin
-          Date.parse(value.to_s)
-        rescue StandardError
-          Date.new(0, 1, 1)
-        end
-      end
-    end
+    entries.sort! do |a, b|
+      a_group = a[:submitted] ? 0 : 1
+      b_group = b[:submitted] ? 0 : 1
+      group_compare = a_group <=> b_group
+      next group_compare unless group_compare.zero?
 
-    entries.reverse!
+      b[:sort_date_value] <=> a[:sort_date_value]
+    end
     entries
   end
 
