@@ -14,10 +14,6 @@ permalink: /join
               <h1 class="page-header">Join Us
                   <small></small>
               </h1>
-              <ol class="breadcrumb">
-                  <li><a href="/">Dong Lab</a></li>
-                  <li class="active">Join Us</li>
-              </ol>
           </div>
       </div>
 

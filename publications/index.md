@@ -11,11 +11,7 @@ permalink: /publications
   <div class="row">
     <div class="col-lg-12">
       <h1 class="page-header">Publications</h1>
-      <ol class="breadcrumb">
-        <li><a href="/">Dong Lab</a></li>
-        <li class="active">Publications</li>
-      </ol>
-    </div>
+</div>
   </div>
 
   <!-- Publications List Start -->

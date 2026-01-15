@@ -1,117 +1,10 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    
-    <title>Research | Dong Lab</title>
-    
-    
-
-    <!-- Twitter Cards -->
-<meta name="twitter:title" content="Research | Dong Lab">
-
-
-
-
-<meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://localhost:4000/images/">
-
-<!-- Open Graph -->
-<meta property="og:locale" content="">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Research | Dong Lab">
-
-<meta property="og:url" content="http://localhost:4000/research">
-<meta property="og:site_name" content="Tsinghua PAIR Website">
-
-    
-    <link rel="canonical" href="">
-      
-    <!-- Bootstrap Core CSS -->
-    <link href="http://localhost:4000/assets/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="http://localhost:4000/assets/css/modern-business.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
-    <link href="https://www.stanford.edu/su-identity/css/su-identity.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet" type="text/css">
-    
-    
-  
-    <!-- 16x16 -->
-    <link rel="shortcut icon" href="http://localhost:4000/img/icon.png">
-    <!-- 32x32 -->
-    <link rel="shortcut icon" href="http://localhost:4000/img/icon.png">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <![endif]-->
-    <!--[if IE 8]>
-      <link rel="stylesheet" type="text/css" href="https://www.stanford.edu/su-identity/css/ie/ie8.css" />
-    <![endif]-->
-    <!--[if IE 7]>
-      <link rel="stylesheet" type="text/css" href="https://www.stanford.edu/su-identity/css/ie/ie7.css" />
-    <![endif]-->
-</head>
-
-
-  <body>
-    <!-- Brandbar snippet start -->
-<div id="brandbar">
-  <div class="container">
-    <a href="https://www.tsinghua.edu.cn/">Tsinghua University</a>
-  </div> <!-- .container end -->
-</div> <!-- #brandbar end -->
-<!-- Brandbar snippet end -->
-
-<!-- Navigation -->
-<nav class="navbar navbar-default navbar-static-top" role="navigation">
-    <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <span class="navbar-brand">Dong Lab</span>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="/">Home</a></li>
-                <li><a href="/people">People</a></li>
-                <li><a href="/research">Research</a></li>
-                <li><a href="/publications">Publications</a></li>
-                <li><a href="/join">Join Us</a></li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container -->
-</nav>
-
-    
-    <!-- Page Content -->
+---
+layout: base
+title: Research | Dong Lab
+about: "Dong Lab Research"
+permalink: /research
+---
+<!-- Page Content -->
 <div class="container-fluid">
 
   <div class="container">
@@ -128,7 +21,7 @@
           <div class="research-item">
               <div class="research-media">
                   <div class="research-image">
-                      <img class="img-responsive img-portfolio" src="/Research/tarc/featured.jpg" alt="Smart Materials" />
+                      <img class="img-responsive img-portfolio" src="/Research/tarc/featured.jpg" alt="Smart Materials">
                   </div>
                   <div class="research-body">
                       <div class="research-title">Smart Materials</div>
@@ -141,7 +34,7 @@
           <div class="research-item">
               <div class="research-media">
                   <div class="research-image">
-                      <img class="img-responsive img-portfolio" src="/Research/mems/featured.jpg" alt="Micro Sensors" />
+                      <img class="img-responsive img-portfolio" src="/Research/mems/featured.jpg" alt="Micro Sensors">
                   </div>
                   <div class="research-body">
                       <div class="research-title">Micro Sensors</div>
@@ -154,7 +47,7 @@
           <div class="research-item">
               <div class="research-media">
                   <div class="research-image">
-                      <img class="img-responsive img-portfolio" src="/Research/tbpc/featured.jpg" alt="Moir&#233; Physics" />
+                      <img class="img-responsive img-portfolio" src="/Research/tbpc/featured.jpg" alt="Moir&#233; Physics">
                   </div>
                   <div class="research-body">
                       <div class="research-title">Moir&#233; Physics</div>
@@ -167,7 +60,7 @@
           <div class="research-item">
               <div class="research-media">
                   <div class="research-image">
-                      <img class="img-responsive img-portfolio" src="/Research/ai4s/featured.jpg" alt="AI-for-Science" />
+                      <img class="img-responsive img-portfolio" src="/Research/ai4s/featured.jpg" alt="AI-for-Science">
                   </div>
                   <div class="research-body">
                       <div class="research-title">AI-for-Science</div>
@@ -180,34 +73,3 @@
   </div>
 </div>
 <!-- /.container -->
-
-    
-    <!-- Footer -->
-<footer style="background:#ffffff; padding:20px 0; margin-top:20px; border-top:1px solid #e6e6e6;">
-    <div class="container">
-        <p style="margin:0; font-size:0.8em; color:#555;">
-            Site template adapted from the Stanford People, AI &amp; Robots (PAIR) Group website (MIT-licensed).
-        </p>
-    </div>
-</footer>
-
-    <!-- jQuery -->
-<script src="/assets/js/jquery.js"></script>
-
-<!-- Bootstrap Core JavaScript -->
-<script src="/assets/js/bootstrap.min.js"></script>
-
-<!-- Script to Activate the Carousel -->
-<script>
-$('.carousel').carousel({
-    interval: 5000 //changes the speed
-})
-</script>
-    
-
-
-  </body>
-
-</html>
-
-
